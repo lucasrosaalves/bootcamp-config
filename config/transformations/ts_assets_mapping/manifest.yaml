@@ -10,6 +10,9 @@ ignoreNullFields: true
 shared: true
 action: update
 dataSetExternalId: uc:001:oee:ds
+schedule:
+    interval: 0 * * * *
+    isPaused: false
 authentication:
     clientId: ${COGNITE_CLIENT_ID}
     clientSecret: ${COGNITE_CLIENT_SECRET}
